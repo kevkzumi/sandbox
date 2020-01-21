@@ -1,0 +1,13 @@
+Chess 8x8 grid
+rows are lettered, columns are numbered
+
+2 classes
+Board and pieces
+Each piece has a subclass
+Game:
+
+pieces
+- x,y
+- type
+- movement
+- taken
