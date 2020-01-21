@@ -1,4 +1,4 @@
-from peice import Peice, Types
+from piece import Piece, Types, COLOR
 import board
 
 COLOR_MOVE_MODIFYERS = {
@@ -6,7 +6,7 @@ COLOR_MOVE_MODIFYERS = {
     COLOR.BLACK: -1
 }
 
-class Pawn(Peice):
+class Pawn(Piece):
     def __init__(self, x, y, color):
         self._x = x
         self._y = y

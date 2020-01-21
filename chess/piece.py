@@ -11,7 +11,7 @@ class COLOR:
     WHITE = 'WHITE'
     BLACK = 'BLACK'
 
-class Peice:
+class Piece:
     _x = None
     _y = None
     _type = None

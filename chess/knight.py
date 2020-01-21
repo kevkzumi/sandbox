@@ -1,6 +1,6 @@
-from peice import Peice, Types
+from piece import Piece, Types
 
-class Knight(Peice):
+class Knight(Piece):
     def __init__(self, x, y, color):
         self._x = x
         self._y = y

@@ -1,7 +1,7 @@
 
-from peice import Peice, Types
+from peice import Piece, Types
 
-class Rook(Peice):
+class Rook(Piece):
     def __init__(self, x, y, color):
         self._x = x
         self._y = y
